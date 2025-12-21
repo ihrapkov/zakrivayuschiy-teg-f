@@ -208,7 +208,8 @@
 }
 
 .like-icon:hover .heart .main-body,
-.like-icon:hover .heart .core {
+.like-icon:hover .heart .core,
+.like-icon:hover .heart .contour {
   fill: var(--contour-color);
 }
 
@@ -320,6 +321,11 @@
   gap: 8px;
 }
 
+.footer__btn-icon {
+  width: 21px;
+  height: 21px;
+}
+
 @media (width <= 375px) {
   .header {
     padding: 16px;
@@ -331,7 +337,7 @@
     flex-direction: column;
     min-height: 84px;
   }
-  .footer__btn svg {
+  .footer__btn-icon {
     width: 28px;
     height: 28px;
   }
